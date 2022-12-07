@@ -30,8 +30,8 @@ const init = function () {
 
     // displaying the image
     // player0image.src =`images/dice${player0}.png`;
-    player0image.setAttribute("src", `images/dice${player0}.png`);
-    player1image.src = `images/dice${player1}.png`;
+    player0image.setAttribute("src", `./images/dice${player0}.png`);
+    player1image.src = `./images/dice${player1}.png`;
 
     // Declaring a winner
     if (player0 > player1) {
